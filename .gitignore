@@ -46,8 +46,9 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+*_log
 
-#ignoring .php
+#ignoring .php and other source
 *.php
 *.json
 *.md
