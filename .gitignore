@@ -11,7 +11,7 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 wp-content/themes/*
-!wp-content/thmes/neve/
+!wp-content/themes/neve/
 wp-content/plugins/*
 !wp-content/plugins/sitepress-multilingual-cms/
 !wp-content/plugins/um-user-bookmarks/
