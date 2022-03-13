@@ -1,8 +1,8 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
 !.gitignore
-!/wp-content
-!/wp-includes
+!/wp-content/
+!/wp-includes/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
@@ -11,8 +11,8 @@
 !/wp-content/assets/**
 # !/wp-content/mu-plugins/
 /wp-content/themes/
-!/wp-content/themes/neve
-!/wp-content/plugins
+!/wp-content/themes/neve/
+!/wp-content/plugins/
 /wp-content/plugins/*
 !/wp-content/plugins/sitepress-multilingual-cms/**
 !/wp-content/plugins/um-user-bookmarks/**
