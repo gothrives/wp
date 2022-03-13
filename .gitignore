@@ -1,37 +1,38 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
 !.gitignore
-!wp-content/
-!wp-includes/
+!/wp-content
+!/wp-includes
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/assets/
-!wp-content/mu-plugins/
-!wp-content/plugins/
-wp-content/themes/*
-!wp-content/themes/neve/
-wp-content/plugins/*
-!wp-content/plugins/sitepress-multilingual-cms/
-!wp-content/plugins/um-user-bookmarks/
-!wp-content/plugins/bbpress/
-!wp-content/plugins/content-views-query-and-diskplay-post-page/
-!wp-content/plugins/ultimate-member/
-!wp-content/plugins/youtube-embed-plus/
-!wp-content/plugins/wp-user-frontend/
-!wp-content/plugins/content-views-query-and-display-post-page/
-!wp-content/plugins/pt-content-views-pro/
-!wp-content/plugins/megamenu/
+#
+/wp-content/*
+!/wp-content/assets/**
+# !/wp-content/mu-plugins/
+/wp-content/themes/*
+!/wp-content/themes/neve
+!/wp-content/plugins
+/wp-content/plugins/*
+!/wp-content/plugins/sitepress-multilingual-cms/**
+!/wp-content/plugins/um-user-bookmarks/**
+!/wp-content/plugins/bbpress/**
+!/wp-content/plugins/content-views-query-and-diskplay-post-page/**
+!/wp-content/plugins/ultimate-member/**
+!/wp-content/plugins/youtube-embed-plus/**
+!/wp-content/plugins/wp-user-frontend/**
+!/wp-content/plugins/content-views-query-and-display-post-page/**
+!/wp-content/plugins/pt-content-views-pro/**
+!/wp-content/plugins/megamenu/**
 
 # ignore all in wp-include
-wp-includes/*
+/wp-includes/*
 # except for css, js, fonts, images, blocks
-!wp-includes/css/
-!wp-includes/js/
-!wp-includes/fonts/
-!wp-includes/images/
-!wp-includes/blocks/
+!wp-includes/css/**
+!wp-includes/js/**
+!wp-includes/fonts/**
+!wp-includes/images/**
+!wp-includes/blocks/**
 
 # ignore these plugins
 # wp-content/plugins/hello.php
