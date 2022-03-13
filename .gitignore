@@ -10,7 +10,7 @@
 /wp-content/*
 !/wp-content/assets/**
 # !/wp-content/mu-plugins/
-/wp-content/themes/*
+/wp-content/themes/
 !/wp-content/themes/neve
 !/wp-content/plugins
 /wp-content/plugins/*
